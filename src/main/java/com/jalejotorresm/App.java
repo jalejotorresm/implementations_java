@@ -1,11 +1,11 @@
 package com.jalejotorresm;
 
-/**
- * Hello world!
- *
- */
+import com.jalejotorresm.selector.Selector;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("\n------ Bienvenido a mi Coleccion de Miniprogramas en Java (con Maven) ------\n");
+        Selector.selector();
+        System.exit(0);
     }
 }
