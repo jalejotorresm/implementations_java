@@ -1,5 +1,7 @@
 package com.jalejotorresm.selector;
 
+import com.jalejotorresm.implementations.factorial.Factorial;
+import com.jalejotorresm.implementations.fibonacci.Fibonacci;
 import com.jalejotorresm.implementations.persona.Persona;
 
 public class Selector {
@@ -8,7 +10,7 @@ public class Selector {
 
 		switch (seleccion) {
 			case "fibonacci":
-				System.out.println(seleccion);
+				Fibonacci.fibonacci();
 				break;
 			case "persona":
 				Persona.persona();
@@ -20,7 +22,7 @@ public class Selector {
 				System.out.println(seleccion);
 				break;
 			case "factorial":
-				System.out.println(seleccion);
+				Factorial.factorial();
 				break;
 		}
 	}
