@@ -4,6 +4,7 @@ import com.jalejotorresm.implementations.binario.Binario;
 import com.jalejotorresm.implementations.factorial.Factorial;
 import com.jalejotorresm.implementations.fibonacci.Fibonacci;
 import com.jalejotorresm.implementations.persona.Persona;
+import com.jalejotorresm.implementations.decimal.Decimal;
 
 public class Selector {
 	public static void selector() {
@@ -20,7 +21,7 @@ public class Selector {
 				Binario.binario();
 				break;
 			case "decimal":
-				System.out.println(seleccion);
+				Decimal.decimal();
 				break;
 			case "factorial":
 				Factorial.factorial();
