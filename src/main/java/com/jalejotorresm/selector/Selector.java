@@ -1,5 +1,6 @@
 package com.jalejotorresm.selector;
 
+import com.jalejotorresm.implementations.binario.Binario;
 import com.jalejotorresm.implementations.factorial.Factorial;
 import com.jalejotorresm.implementations.fibonacci.Fibonacci;
 import com.jalejotorresm.implementations.persona.Persona;
@@ -16,7 +17,7 @@ public class Selector {
 				Persona.persona();
 				break;
 			case "binario":
-				System.out.println(seleccion);
+				Binario.binario();
 				break;
 			case "decimal":
 				System.out.println(seleccion);
